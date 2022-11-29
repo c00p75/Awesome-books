@@ -11,7 +11,7 @@ function storeEntryData(titleElement, authorElement) {
   let entryObject = {};
   entryObject.title = titleElement.value;
   entryObject.author = authorElement.value;
-  library.push(entryObject)
+  library.push(entryObject);
 }
 
 function appendBookHTML(title = false, author = false) {  
