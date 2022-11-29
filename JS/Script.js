@@ -30,7 +30,7 @@ function appendBookHTML(title = false, author = false) {
 } 
 
 function loadBooks() {
-  for (let i = 0; i < library.length; i++) {    
+  for (let i = 0; i < library.length; i+=1) {    
     appendBookHTML(library[i].title, library[i].author)
   }
 }
