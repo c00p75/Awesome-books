@@ -19,8 +19,9 @@ function appendBookHTML(title = false, author = false) {
     return true;
   }
   const newBook = document.createElement('div');
+  newBook.setAttribute('class', 'book-list');
   const newTitle = document.createElement('div');
-  newTitle.innerHTML = title;
+  newTitle.innerHTML = title.concat('-by-');
   newBook.appendChild(newTitle);
   const newAouthor = document.createElement('div');
   newAouthor.innerHTML = author;

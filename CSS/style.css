@@ -40,7 +40,60 @@ nav ul li {
   padding: 0 1rem;
 }
 
+#add,
+#contact-btn,
+#list {
+  cursor: pointer;
+}
+
 #book-list,
 #contact {
   display: none;
+}
+
+/* form */
+form input[type='text'] {
+  width: 50%;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  border-radius: 0.2rem;
+}
+
+form input[type='submit'] {
+  width: 30%;
+  font-size: 1.3rem;
+  padding: 0.6rem;
+  background-color: green;
+  color: #fff;
+}
+
+#collection {
+  border: 2px solid #000;
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 2rem;
+}
+
+.book-list {
+  display: flex;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  width: 100%;
+  padding: 0.5rem 1rem;
+  position: relative;
+}
+
+#collection .book-list:nth-child(odd) {
+  background-color: gray;
+  color: #fff;
+}
+
+.remove {
+  position: absolute;
+  left: 92%;
+  width: 5rem;
+  padding: 0.5rem;
+  background-color: red;
+  color: #fff;
+  border: 1px solid #fff;
 }
