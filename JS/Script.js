@@ -1,6 +1,6 @@
 const bookCollection = document.querySelector('#collection');
 const addBook = document.querySelector('#add-book');
-var library
+let library;
 if (localStorage.getItem('Awesome Book Collection') === null) {
   library = [];
 } else {
@@ -15,7 +15,7 @@ function storeEntryData(titleElement, authorElement) {
 }
 
 function appendBookHTML(title = false, author = false) {
-  if (title === false || author === false) { return };
+  if (title === false || author === false) { return }
   const newBook = document.createElement('div');
   const newTitle = document.createElement('div');
   newTitle.innerHTML = title;
@@ -38,7 +38,7 @@ function loadBooks() {
 loadBooks();
 
 function updateNewBook() {
-  appendBookHTML(library[library.length - 1].title, library[library.length-1].author);
+  appendBookHTML(library[library.length - 1].title, library[library.length - 1].author);
   localStorage.setItem('Awesome Book Collection', JSON.stringify(library));
 }
 
