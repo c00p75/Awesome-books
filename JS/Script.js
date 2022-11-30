@@ -74,3 +74,19 @@ bookCollection.addEventListener('click', (event) => {
     removeBook(event.target);
   }
 });
+
+document.getElementById('add').addEventListener('click', () => {
+  document.getElementById('add-book').style.display = 'block';
+  document.getElementById('book-list').style.display = 'none';
+  document.getElementById('contact').style.display = 'none';
+});
+document.getElementById('list').addEventListener('click', () => {
+  document.getElementById('book-list').style.display = 'block';
+  document.getElementById('add-book').style.display = 'none';
+  document.getElementById('contact').style.display = 'none';
+});
+document.getElementById('contact-btn').addEventListener('click', () => {
+  document.getElementById('contact').style.display = 'block';
+  document.getElementById('book-list').style.display = 'none';
+  document.getElementById('book-add').style.display = 'none';
+});
