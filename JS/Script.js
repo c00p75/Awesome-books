@@ -29,6 +29,7 @@ function appendBookHTML(title = false, author = false) {
   removeButton.innerHTML = '<button class="remove">Remove</button><br><br>';
   newBook.appendChild(removeButton);
   bookCollection.appendChild(newBook);
+  return false;
 }
 
 function loadBooks() {
