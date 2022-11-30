@@ -15,7 +15,9 @@ function storeEntryData(titleElement, authorElement) {
 }
 
 function appendBookHTML(title = false, author = false) {
-  if (title === false || author === false) { return }
+  if (title === false || author === false) {
+    return true;
+  }
   const newBook = document.createElement('div');
   const newTitle = document.createElement('div');
   newTitle.innerHTML = title;
