@@ -1,26 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/style.css">
   <title>Awesome Books</title>
 </head>
+
 <body>
   <main>
-    <h1>Awesome Books</h1>
-    <div id="collection"></div>
-    <form id="add-book">
-      <input type="text" id="title" name="Title" placeholder="Title">
-      <br>
-      <br>
-      <input type="text" id="author" name="Author" placeholder="author">
-      <br>
-      <br>
-      <input type="submit" id="add" value="Add">
-    </form>
+    <nav>
+      <p class="logo">Awesome Book</p>
+      <ul>
+        <li class="list-item" id="add">Add New</li>
+        <li class="list-item" id="list">List</li>
+        <li class="list-item" id="contact-btn">Contact</li>
+      </ul>
+    </nav>
+    <section class="time">
+      <p id="date-time"></p>
+    </section>
+    <section id="add-book">
+      <h2>Add New Book</h2>
+      <form id="add-book">
+        <input type="text" id="title" name="Title" placeholder="Title">
+        <br>
+        <br>
+        <input type="text" id="author" name="Author" placeholder="author">
+        <br>
+        <br>
+        <input type="submit" id="add" value="Add">
+      </form>
+    </section>
+    <section id="book-list">
+      <h2>Book List</h2>
+      <div id="collection"></div>
+    </section>
+    <section id="contact">
+      <h2>Contact</h2>
+    </section>
   </main>
 
   <script src="JS/script.js"></script>
 </body>
+
 </html>
