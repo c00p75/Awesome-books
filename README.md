@@ -11,23 +11,14 @@
 
 # 📖 [Awesome Book] <a name="about-project"></a>
 
-> Describe your project in 1 or 2 sentences.
-**[your_project__name]** is a...
+> > This is a project that I and my coding partner have created using HTML,CSS and js. For now it have the functionality of storing the book: name and author and you can removed also the specific book. The data will be stored in user browser.
 
 ## 🛠 Built With <a name="built-with"></a>
-
-### Tech Stack <a name="tech-stack"></a>
-
-> This is a project that I and my coding partner have created using HTML,CSS and js. For now it have the functionality of storing the book: name and author and you can removed also the specific book. The data will be stored in user browser.
-<details>
-  <summary>Client</summary>
   <ul>
     <li><a href="https://reactjs.org/">HTML</a></li>
     <li><a href="https://reactjs.org/">CSS</a></li>
     <li><a href="https://reactjs.org/">JS</a></li>
   </ul>
-</details>
-
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
