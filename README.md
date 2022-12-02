@@ -7,6 +7,25 @@
 
 </div>
 
+# 📗 Table of Contents
+
+- [📖 About the Project](#about-project)
+  - [🛠 Built With](#built-with)
+    - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
+- [💻 Getting Started](#getting-started)
+  - [Setup](#setup)
+  - [Prerequisites](#prerequisites)
+  - [Install](#install)
+  - [Usage](#usage)
+  - [Run tests](#run-tests)
+  - [Deployment](#triangular_flag_on_post-deployment)
+- [👥 Authors](#authors)
+- [🔭 Future Features](#future-features)
+- [⭐️ Show your support](#support)
+- [❓ FAQ](#faq)
+- [📝 License](#license)
+
 <!-- PROJECT DESCRIPTION -->
 
 # 📖 [Awesome Book] <a name="about-project"></a>
@@ -51,7 +70,10 @@ In order to run this project you need:
 
 ### Setup
 
-Clone this repository to your desired folder:
+- In order to Clone this repository to your PC please follow the below steps:
+ > copy this link [https://github.com/c00p75/Awesome-books.git]
+ > Open your (cmd) or (git bash) and type [cd desktop] to change the directore and selec the desktop
+ > go to your (cmd) or (git bash) and type this commad [git clone <copy the repo link>] the repo will be save to your desktop.
 
 ### Usage
 

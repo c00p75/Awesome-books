@@ -2,7 +2,13 @@ class Book {
   constructor() {
     this.bookCollection = document.querySelector('#collection');
     this.addBook = document.querySelector('#add-book');
+    this.dateTime = document.getElementById('date-time');
     this.library = {};
+  }
+
+  setDateTime = () => {
+    const date = new Date();
+    this.dateTime.textContent = date;
   }
 
   storeEntryData = (titleElement, authorElement) => {
@@ -53,6 +59,11 @@ class Book {
 }
 // Program Staring Point
 const BookObj = new Book();
+// show time
+setInterval(() => {
+  BookObj.setDateTime();
+}, 1000);
+
 if (localStorage.getItem('Awesome Book Collection') === null) {
   BookObj.library = [];
 } else {

@@ -97,3 +97,13 @@ form input[type='submit'] {
   color: #fff;
   border: 1px solid #fff;
 }
+
+/* Date Time */
+.time {
+  text-align: right;
+  margin-right: 2rem;
+  margin-bottom: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
