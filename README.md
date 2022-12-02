@@ -11,7 +11,7 @@
 
 # 📖 [Awesome Book] <a name="about-project"></a>
 
-> > This is a project that I and my coding partner have created using HTML,CSS and js. For now it have the functionality of storing the book: name and author and you can removed also the specific book. The data will be stored in user browser.
+> This is a project that I and my coding partner have created using HTML,CSS and js. For now it have the functionality of storing the book: name and author and you can removed also the specific book. The data will be stored in user browser.
 
 ## 🛠 Built With <a name="built-with"></a>
   <ul>
