@@ -107,5 +107,5 @@ document.getElementById('list').addEventListener('click', () => {
 document.getElementById('contact-btn').addEventListener('click', () => {
   document.getElementById('contact').style.display = 'block';
   document.getElementById('book-list').style.display = 'none';
-  document.getElementById('book-add').style.display = 'none';
+  document.getElementById('add-book').style.display = 'none';
 });
