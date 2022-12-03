@@ -107,3 +107,47 @@ form input[type='submit'] {
   font-size: 1.2rem;
   font-weight: bold;
 }
+
+.footer {
+  border: 1px solid black;
+  margin-top: 10rem;
+}
+
+.footer .footer-text {
+  padding: 1rem;
+  font-size: 1.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+#contact h2 {
+  font-size: 3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+  margin-bottom: 3rem;
+}
+
+#contact p {
+  font-size: 1.3rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bolder;
+}
+
+#contact p span {
+  display: block;
+  margin-bottom: 1rem;
+}
+
+#contact ul {
+  width: 450px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+#contact ul li {
+  margin-bottom: 0.2rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 1.1rem;
+  font-weight: bolder;
+}
